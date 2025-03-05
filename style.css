@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+/* body {
+  background: #000;
+  color: #fff;
+} */
+
+/* --------------------------------------------header--------------------------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+
+header h2 {
+  font-size: 1.7em;
+  cursor: pointer;
+}
+
+header .header-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 10px;
+}
+
+header .header-icon a {
+  font-size: 2.1em;
+  text-decoration: none;
+  color: #00000075;
+}
+
+header .header-icon1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1.4em;
+  margin-right: 16%;
+}
+
+header .header-icon1 a {
+  text-decoration: none;
+  color: #00000035;
+  transition: all ease 0.3s;
+}
+
+header .header-icon1 a:hover {
+  color: #000;
+}
+
+header .fonts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 3%;
+  font-size: 1.7em;
+  color: #00000080;
+  cursor: pointer;
+}
+
+header .fonts:hover {
+  color: #000;
+}
+
+header .fonts a {
+  text-decoration: none;
+  color: #00000080;
+}
+
+header .fonts a:hover {
+  color: #000;
+}
+
+/* ------------------------------------------slider-------------------------- */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 50%;
+  min-height: 50vh;
+}
