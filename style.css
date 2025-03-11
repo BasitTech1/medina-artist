@@ -21,7 +21,7 @@ header {
 }
 
 header .logo h2 {
-  font-size: 3em;
+  font-size: 4em;
   cursor: pointer;
 }
 
@@ -34,14 +34,10 @@ header .header-icon1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 3em;
-  color: #ffffff9b;
+  font-size: 2em;
+  color: #fff;
   cursor: pointer;
   transition: all 0.3s ease-in;
-}
-
-header .header-icon1:hover {
-  color: #fff;
 }
 
 header .header-icon1 a {
@@ -54,29 +50,13 @@ header .header-icon1 a:hover {
   color: #fff;
 }
 
-header .search {
+header .contact1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-}
-
-header .search i {
-  font-size: 2.5em;
   color: #fff;
+  font-size: 2em;
   cursor: pointer;
-}
-
-header .search input {
-  border: none;
-  outline: none;
-  padding: 8px 2px;
-  border-radius: 4px;
-  font-size: 1em;
-  color: black;
-}
-header .search input::placeholder {
-  color: black;
 }
 
 /* ------------------------------------------slider-------------------------- */
@@ -277,4 +257,66 @@ footer .copyright {
   left: 45%;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.603);
+}
+
+/* --------------------------------------cateory-page----------------------------- */
+
+#img-category {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 40px;
+}
+
+#img-category .category {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 70px;
+}
+
+#img-category .category .category1 {
+  width: 10%;
+}
+
+#img-category .category .category1 h4 {
+  font-size: 3em;
+  line-height: 45px;
+}
+
+#img-category .category .category2 {
+  width: 20%;
+  font-weight: 500;
+}
+
+#img-category .category .category3 {
+  width: 20%;
+  font-weight: 500;
+}
+
+#img-category .category .category4 {
+  width: 20%;
+  font-weight: 500;
+}
+
+#img-category .categoryNext {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+#img-category .categoryNext i {
+  cursor: pointer;
+}
+
+/* --------------------------------------img-details----------------------------- */
+
+#category-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px;
 }
