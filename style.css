@@ -42,12 +42,8 @@ header .header-icon1 {
 
 header .header-icon1 a {
   text-decoration: none;
-  color: #ffffff9b;
-  transition: all ease 0.3s;
-}
-
-header .header-icon1 a:hover {
   color: #fff;
+  transition: all ease 0.3s;
 }
 
 header .contact1 {
@@ -57,6 +53,11 @@ header .contact1 {
   color: #fff;
   font-size: 2em;
   cursor: pointer;
+}
+
+header .contact1 a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* ------------------------------------------slider-------------------------- */
@@ -319,4 +320,82 @@ footer .copyright {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 40px;
+}
+
+/* ---------------------------------------------Aboutus--------------------------------- */
+
+#aboutInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 60px;
+}
+
+#aboutInfo .email h4 {
+  font-size: 2em;
+}
+
+#aboutInfo .socialInfo {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+#aboutInfo .socialInfo a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+#aboutInfo .detailsInfo p {
+  font-weight: 600;
+  color: #00000082;
+}
+
+/* --------------------------------------------------------Overview---------------------------------- */
+
+#overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+#overview .OverviewDesc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#overview .OverviewDesc h2 {
+  font-size: 8em;
+}
+
+#overview .OverviewDesc p {
+  font-weight: 500;
+  width: 50%;
+  text-align: center;
+  margin-top: -35px;
+  font-size: 0.8em;
+}
+
+#overview .overviewProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+#overview .overviewProduct h3 {
+  font-size: 2em;
+}
+
+#overview .overviewProduct p {
+  font-size: 0.9em;
+  color: #00000082;
+  font-weight: 600;
+  line-height: 18px;
 }
