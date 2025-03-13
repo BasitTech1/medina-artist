@@ -21,7 +21,7 @@ header {
 }
 
 header .logo h2 {
-  font-size: 4em;
+  font-size: 2.5em;
   cursor: pointer;
 }
 
@@ -101,18 +101,18 @@ header .contact1 {
 }
 
 #contact .contact-details h4 {
-  font-size: 6em;
+  font-size: 5em;
 }
 
 #contact .contact-details p {
   font-weight: 600;
-  margin-top: -30px;
+  margin-top: -10px;
   margin-bottom: 10px;
 }
 
 #contact .contact-details form {
   position: relative;
-  min-height: 10vh;
+  min-height: 20vh;
 }
 
 #contact .contact-details form input {
