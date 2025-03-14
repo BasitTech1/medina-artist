@@ -189,73 +189,30 @@ footer {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
 }
 
-footer .logo {
-  font-size: 3em;
-  line-height: 79px;
-}
-
-footer .logo a {
-  text-decoration: none;
-  color: yellow;
-}
-
 footer h3 {
-  font-size: 4em;
+  font-size: 2em;
   color: yellow;
 }
 
-footer .social-icon {
-  font-size: 3em;
+footer .social-icon-details {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  cursor: pointer;
 }
 
-footer .social-icon:hover {
-  color: #cdcdcd;
-}
-
-footer .social-icon-details1 h4 {
-  font-size: 4em;
-  color: yellow;
-}
-
-footer .social-icon-details1 .email input {
-  padding: 10px;
-  outline: none;
-  border: none;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-
-footer .social-icon-details1 .email input:hover {
-  background-color: #cdcdcd;
-}
-
-footer .social-icon-details1 .email button {
-  border: none;
-  outline: none;
-  padding: 10px;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  background-color: white;
-  cursor: pointer;
-}
-
-footer .social-icon-details1 .email button:hover {
-  background-color: #cdcdcd;
+footer .social-icon {
+  margin-left: 10px;
+  font-size: 2em;
 }
 
 footer .copyright {
   position: absolute;
-  top: 90%;
-  left: 45%;
+  top: 75%;
+  left: 44%;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.603);
 }
