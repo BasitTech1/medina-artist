@@ -587,4 +587,13 @@ footer .copyright {
     flex-direction: column;
     text-align: center;
   }
+
+  #contact {
+    background-color: #000;
+    height: 100vh;
+  }
+
+  .contact-details {
+    margin-top: -122%;
+  }
 }
