@@ -356,3 +356,201 @@ footer .copyright {
   font-weight: 600;
   line-height: 18px;
 }
+
+/* ---------------------------------IPAD Responsive--------------------------- */
+
+@media (max-width: 800px) {
+  header {
+    width: 100%;
+    padding: 30px;
+  }
+
+  header .logo h2 {
+    font-size: 1.5em;
+  }
+
+  header .header-icon1 {
+    font-size: 1.5em;
+  }
+
+  header .contact1 {
+    font-size: 1.5em;
+  }
+
+  #contact .contact-details form {
+    min-height: 12vh;
+  }
+
+  footer .copyright {
+    position: absolute;
+    top: 78%;
+    left: 37%;
+  }
+
+  #overview .OverviewDesc p {
+    width: 100%;
+    margin-top: -31px;
+  }
+
+  #overview .overviewProduct {
+    padding: 13px;
+  }
+
+  #overview .overviewProduct h3 {
+    font-size: 1.2em;
+  }
+
+  #overview .overviewProduct p {
+    font-size: 0.6em;
+    line-height: 12px;
+  }
+
+  #img-category .category {
+    gap: 50px;
+  }
+
+  #img-category .category .category1 h4 {
+    font-size: 1.4em;
+    line-height: 25px;
+  }
+
+  #img-category .category .category2 p {
+    width: 20%;
+    font-weight: 500;
+    font-size: 0.7em;
+  }
+
+  #img-category .categoryNext {
+    font-size: 1em;
+  }
+
+  #category-images {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 80px;
+    grid-gap: 34px;
+  }
+
+  #img-category .category {
+    gap: 50px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #img-category .category .category2 {
+    width: 85%;
+    font-weight: 600;
+    font-size: 0.7em;
+  }
+
+  #img-category .category .category3 {
+    width: 85%;
+    font-weight: 600;
+    font-size: 0.7em;
+  }
+
+  #img-category .category .category4 {
+    width: 85%;
+    font-weight: 600;
+    font-size: 0.7em;
+  }
+
+  #category-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  #category-images img {
+    width: 50%;
+  }
+
+  #category-images {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    width: 100%;
+    padding: 0;
+    grid-gap: 0px;
+    margin: 10px 35px 10px 30px;
+  }
+}
+
+/* ---------------------------------------------Mobile Responsive------------------------- */
+@media (max-width: 400px) {
+  header {
+    width: 100%;
+    padding: 20px;
+  }
+
+  header .logo h2 {
+    font-size: 1em;
+  }
+
+  header .header-icon1 {
+    font-size: 1em;
+  }
+
+  header .contact1 {
+    font-size: 1em;
+  }
+
+  .swiper {
+    height: 290px;
+  }
+
+  #contact .contact-details h4 {
+    font-size: 2em;
+  }
+
+  #contact .contact-details p {
+    font-weight: 600;
+    margin-top: -4px;
+    margin-bottom: 9px;
+    font-size: 0.7em;
+  }
+
+  #contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #contact .contact-details form {
+    min-height: 18vh;
+  }
+
+  #contact .contact-details form button {
+    position: absolute;
+    top: 91%;
+    left: 34%;
+    font-size: 1em;
+  }
+
+  #work h3 {
+    font-size: 2em;
+    margin: 25px;
+  }
+
+  #work .workproduct {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  footer h3 {
+    font-size: 1em;
+  }
+
+  footer .social-icon {
+    font-size: 1em;
+  }
+
+  footer .copyright {
+    position: absolute;
+    top: 68%;
+    left: 31%;
+    font-size: 0.7em;
+  }
+}
