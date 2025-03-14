@@ -553,4 +553,38 @@ footer .copyright {
     left: 31%;
     font-size: 0.7em;
   }
+
+  #aboutInfo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    width: 100%;
+  }
+
+  #aboutInfo .email h4 {
+    font-size: 1em;
+  }
+
+  #aboutInfo .socialInfo a {
+    font-size: 0.8em;
+  }
+
+  #aboutInfo .detailsInfo p {
+    font-size: 0.6em;
+  }
+
+  #overview .OverviewDesc h2 {
+    font-size: 4em;
+  }
+
+  #overview .OverviewDesc p {
+    width: 100%;
+    margin-top: -11px;
+  }
+
+  #overview .overviewProduct {
+    padding: 13px;
+    flex-direction: column;
+    text-align: center;
+  }
 }
