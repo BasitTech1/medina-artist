@@ -162,23 +162,40 @@ header .contact1 a {
 }
 
 #work .workproduct {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px; */
   padding: auto 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  max-width: 1450px;
+  width: 100%;
 }
 
-#work .workproduct img {
+#work .workproduct .workImg {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#work .workproduct .workImg img {
   width: 100%;
-  cursor: pointer;
-  transition: all 0.3s ease-in;
+  height: auto; /* Keeps aspect ratio */
+  max-height: 400px; /* Prevents very tall images */
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
 }
 
 #work .workproduct img:hover {
   transform: scale(1.1);
-}
-
-#work .workproduct {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
 }
 
 /* -------------------------------------------footer------------------------- */
@@ -461,6 +478,10 @@ footer .copyright {
     width: 100%;
   }
 
+  #work .workproduct {
+    overflow: hidden;
+  }
+
   #category-images img {
     width: 50%;
   }
@@ -518,12 +539,17 @@ footer .copyright {
   }
 
   #contact .contact-details form {
-    min-height: 18vh;
+    min-height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
   }
 
   #contact .contact-details form button {
     position: absolute;
-    top: 91%;
+    top: 130%;
     left: 34%;
     font-size: 1em;
   }
@@ -590,10 +616,6 @@ footer .copyright {
 
   #contact {
     background-color: #000;
-    height: 100vh;
-  }
-
-  .contact-details {
-    margin-top: -122%;
+    height: 58vh;
   }
 }
